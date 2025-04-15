@@ -99,3 +99,23 @@
 | TAJB475K025RNJ – 3528 Tantalum Cap | [SnapEDA](https://www.snapeda.com/parts/TAJB475K025RNJ/AVX%20Corporation/view-part/?ref=eda)     | [Datasheet](https://s3.amazonaws.com/snapeda/datasheet/TAJB475K025RNJ_AVX.pdf)               |
 | SJ -SMD solder JUMPER              | [GrabCAD](https://grabcad.com/library/solder-jumpers-1)                                          | [DataSheet](https://www.farnell.com/datasheets/2813407.pdf)                                  |
 | PFMF.050.1-ESP32C6_VARISTORCN1812  | [Mouser](https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72520T0350K062?qs=dEfas%2FXlABIszF52uu7vrg%3D%3D)| [DataSheet](https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Surge_protection_series.pdf)  | 
+
+
+
+## Implementation Steps
+Creating the schematic according to the diagram,Finding and loading 3D models for each component,Designing the PCB,Placing the components on the PCB,Routing,Creating ground planes, via-stitching,Meeting requirements (component names on top silkscreen, DRC clean, etc.),Creating the battery and display,Assembling everything into the enclosure.
+
+I only approved the "SMD-Hole, Board Outline Clearance" errors, as this was previously accepted and specified.
+
+## Issues encountered:
+I had to manually add the 3D model for EACH component because I had problems and errors when trying to update the library (adding to the library wasn't working), which was extremely time-consuming.
+
+
+
+
+
+
+
+
+
+
